@@ -30,5 +30,6 @@ def pronunciation_analyzer(file_name = "Example.wav", word= "Example"):
     res = cosdis(word2vec(Word_in_Audio),word2vec(word))
     #print(res)
     return res
-
-print(pronunciation_analyzer())
+file_name = "Example.wav"
+word ="welcome"
+print(pronunciation_analyzer(file_name, word))
